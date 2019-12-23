@@ -1,0 +1,51 @@
+body {
+    width: 1540px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+nav{
+    display: inherit;
+}
+/* *{
+box-sizing: border-box;
+text-decoration: none;
+} */
+.logo img{
+    width: 200px;
+    display: inline-block;
+}
+
+h5{
+    display: inherit;
+}
+
+/* .fa-shopping-bag{
+    font-size: 20px;
+    
+} */
+/* #productValue{
+    position: relative;
+    font-size: 75%;
+    vertical-align: baseline;
+} */
+
+.menubar{
+    /* display: inline-block; */
+    justify-content: space-between;
+}
+
+.menubar li a{
+    text-decoration: none;
+}
+
+.icons{
+    margin-left: 325px;
+}
+
+.images{
+    width: 1820px;
+}
+
+nav .col-6 .menubar li a{
+    text-decoration: none;
+}
