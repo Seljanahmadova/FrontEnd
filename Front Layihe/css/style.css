@@ -2,50 +2,130 @@ body {
     width: 1540px;
     margin: 0 auto;
     padding: 0px;
-  }
-nav{
-    display: inherit;
 }
-/* *{
-box-sizing: border-box;
-text-decoration: none;
-} */
-.logo img{
-    width: 200px;
+
+nav {
+    display: inherit;
+    padding: 25px;
+}
+
+.logo img {
+    width: 213px;
     display: inline-block;
+    margin-left: 85px;
 }
 
-h5{
+h5 {
     display: inherit;
 }
 
-/* .fa-shopping-bag{
-    font-size: 20px;
-    
-} */
-/* #productValue{
-    position: relative;
-    font-size: 75%;
-    vertical-align: baseline;
-} */
+.menubar {
+    justify-content: space-between;
+    margin-left: 150px;
+    padding: 5px;
+}
 
-.menubar{
-    /* display: inline-block; */
+.mySlider .images img {
+    width: 1450px;
+    justify-content: center;
+}
+
+#flowers {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: auto;
+}
+
+#card1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.categorySection {
     justify-content: space-between;
 }
 
-.menubar li a{
+nav ul li a {
     text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    width: 100px;
+    margin: 0 -5px;
 }
 
-.icons{
-    margin-left: 325px;
-}
-
-.images{
-    width: 1820px;
-}
-
-nav .col-6 .menubar li a{
+nav ul li a:hover {
     text-decoration: none;
+    color: black
+}
+
+.quote h1 p {
+    color: red;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    padding: -1px!important;
+    border: 1 px solid
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    color: black
+}
+
+.icons {
+    margin-left: 95px;
+    padding: 0;
+}
+
+.icons span a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#flowers {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 201px;
+    height: auto;
+}
+
+.acc_heading {
+    position: relative;
+    z-index: 100;
+    padding: 100px;
+    background-color: #ededed;
+    width: 1330px;
+}
+
+.acc_heading h1 {
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.32em;
+    width: 1330px;
+}
+
+.col-12 .myAccordions .accCard {
+    margin: 25px;
+    padding: 25px;
+    width: 500px;
+    height: 25px;
+    background-color: cadetblue;
 }
